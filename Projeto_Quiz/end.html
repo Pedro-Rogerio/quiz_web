@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="end.css"/>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+        <h2 id="finalScoreText">Sua pontuação foi:</h2>
+        <h1 id="finalScore"></h1>
+        <form>
+            <input type="text" name="username" id="username" placeholder="Nome de Usuario" />
+        </form>
+        <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">
+            Submeter
+        </button>
+        <a class="btn" href="pergunta.html">Jogar Novamente</a>
+        <a class="btn" href="main.html">Início</a>
+        </div>
+    </div>
+    
+    
+</body>
+    <script src="end.js"></script>
+    </script>
+</html>
